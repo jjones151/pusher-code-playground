@@ -9,12 +9,12 @@ html {
 }
 
 .playground {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
+  position: -webkit-sticky;
+  top: 5;
+  bottom: 5;
+  left: 5;
   width: 600px;
-  background-color: #1E1E2C;
+  background-color: #1a1a1a;
 }
 
 .code-editor {
